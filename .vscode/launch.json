@@ -2,6 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "GatewayDeviceApp",
+            "request": "launch",
+            "mainClass": "programmingtheiot.gda.app.GatewayDeviceApp",
+            "projectName": "gateway-device-app"
+        },
+        {
             "name": "Python: Run Current File with PYTHONPATH",
             "type": "python",
             "request": "launch",
