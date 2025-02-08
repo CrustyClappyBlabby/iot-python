@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run Current File with PYTHONPATH",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "/home/debian/Desktop/excercises/programming-iot/python-components/src/main/python:/home/debian/Desktop/excercises/programming-iot/python-components/src/test/python"
+            }
+        }
+    ]
+}
